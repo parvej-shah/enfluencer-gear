@@ -1,0 +1,17 @@
+@media screen and (max-width:768px) {
+    .nav-bar{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .hamburger {
+        display: block;
+    }
+    .nav-item-desk{
+        display: none;
+    }
+    .nav-bar{
+        padding-top: 40px;
+        align-items: center;
+    }
+    
+}
