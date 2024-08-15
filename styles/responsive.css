@@ -1,7 +1,17 @@
 @media screen and (max-width:768px) {
-    .nav-bar{
+    html {
+        font-size: 10px;
+      }
+    .nav-bar,
+    .hero-section,
+main{
         width: 95%;
         margin: 0 auto;
+    }
+    .brand-section{
+        width: 97%;
+        margin: 0 auto;
+        border: none;
     }
     .hamburger {
         display: block;
@@ -13,5 +23,52 @@
         padding-top: 40px;
         align-items: center;
     }
-    
+
+    .hero-section{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-section-content {
+        max-width: 100%;
+        text-align: center;
+      }
+.hero-section-image{
+    width: 257px;
+    height: 257px;
+}
+.hero-img{
+    width: 202px;
+    height: 190px;
+    position: absolute;
+    top: 51px;
+    left: 22px;
+}
+.hero-circle{
+    width: 257px;
+    height: 257px;
+}
+.brand-img{
+    width: 50px;
+    height: 15px;}
+.brands{
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+.collections{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
+.feature-section{
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.feature-img{
+    width: 300px;
+    height: 190px;
+}
 }
